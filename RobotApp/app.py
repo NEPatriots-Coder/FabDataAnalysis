@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns 
 import matplotlib.pyplot as plt 
 import numpy as np 
-df = pd.read_csv('WeldDataAnalysis/Data_Folder/BreakDataClean.csv')
+df = pd.read_csv('BreakDataClean.csv')
 df.head(1)
 df = df.drop('ID', axis=1)
 
