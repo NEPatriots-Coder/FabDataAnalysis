@@ -7,7 +7,7 @@ df = pd.read_csv('BreakDataClean.csv')
 df.head(1)
 df = df.drop('ID', axis=1)
 
-st.title('Analyzing Robotic Weld Output')
+st.title('Analyzing Robotic Fabrication Output')
 st.write("This is a summary of statistical output of this data-set")
 
 
